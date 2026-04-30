@@ -1,17 +1,20 @@
 # Legal-ML-Pipeline (CUAD)
 
-End-to-end pipeline for **multi-label legal clause classification** on the
-[CUAD v1](https://www.atticusprojectai.org/cuad) dataset.
+## Overview
+This project presents an end-to-end machine learning pipeline for **multi-label legal clause classification** using the CUAD dataset. It integrates traditional machine learning, transformer-based models, and deployment tools to build a scalable and production-ready legal AI system.
+
+End-to-end pipeline for **multi-label legal clause classification** on the  
+[CUAD v1] dataset.
 
 The repo implements **Approach A**:
 
-- **TF-IDF baselines** — One-vs-Rest Logistic Regression and Linear SVM
-- **Domain-Adaptive Pretraining (DAP)** on LegalBERT
-- **Multi-Task Learning (MTL)** with chunk-level + document-level heads
-- **Long-document chunking** (`max_len=512`, `stride=128`)
-- **Per-label threshold tuning**, robustness tests, and ablations
-- **FastAPI** inference server + **Streamlit** dashboard
-- **Docker / docker-compose** for reproducible deployment
+- **TF-IDF baselines** — One-vs-Rest Logistic Regression and Linear SVM  
+- **Domain-Adaptive Pretraining (DAP)** on LegalBERT  
+- **Multi-Task Learning (MTL)** with chunk-level + document-level heads  
+- **Long-document chunking** (`max_len=512`, `stride=128`)  
+- **Per-label threshold tuning**, robustness tests, and ablations  
+- **FastAPI** inference server + **Streamlit** dashboard  
+- **Docker / docker-compose** for reproducible deployment  
 
 ---
 
