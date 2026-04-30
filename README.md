@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Legal-ML-Pipeline (CUAD)
 
 End-to-end pipeline for **multi-label legal clause classification** on the
@@ -170,3 +171,6 @@ If you use this pipeline, please cite the CUAD dataset:
 > Hendrycks, D., Burns, C., Chen, A., Ball, S. *CUAD: An Expert-Annotated
 > NLP Dataset for Legal Contract Review.* NeurIPS 2021 Datasets and
 > Benchmarks Track.
+=======
+# Legal-Document-Classifier
+>>>>>>> cb1c587b4e52e8d8c8bd44ac0f8a68f76fa2e3c2
