@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+tqdm
+pyyaml
+torch
+transformers
+streamlit
+torchvision
+torchaudio
+-index-url https://download.pytorch.org/whl/cu118
+fastapi
+pydantic

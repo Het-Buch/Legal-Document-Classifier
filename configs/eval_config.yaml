@@ -1,0 +1,5 @@
+metrics:
+  - f1_micro
+  - f1_macro
+  - hamming_loss
+  - jaccard_score

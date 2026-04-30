@@ -1,0 +1,133 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+.installed.cfg
+pip-wheel-metadata/
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---------------------------------------------------------------------------
+# Environment / secrets
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+
+# ---------------------------------------------------------------------------
+# IDE / editor
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------------------------------------------------------------------------
+# Testing / coverage / type checkers
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ---------------------------------------------------------------------------
+# Data — CUAD raw payload (keep folder structure, ignore contents)
+# ---------------------------------------------------------------------------
+data/raw/CUAD_v1/full_contract_txt/*
+data/raw/CUAD_v1/full_contract_pdf/*
+data/raw/CUAD_v1/label_group_xlsx/*
+data/processed/
+data/interim/
+data/external/
+
+# Large data formats anywhere in the tree
+*.csv.gz
+*.parquet
+*.feather
+*.arrow
+*.tfrecord
+*.h5
+*.hdf5
+
+# ---------------------------------------------------------------------------
+# Models / checkpoints / large binaries
+# ---------------------------------------------------------------------------
+models/checkpoints/
+deployment/models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.joblib
+*.pkl
+*.pickle
+
+# Hugging Face / Torch caches
+.cache/
+.huggingface/
+transformers_cache/
+
+# ---------------------------------------------------------------------------
+# Pipeline outputs
+# ---------------------------------------------------------------------------
+artifacts/
+!artifacts/.gitkeep
+logs/
+*.log
+runs/
+mlruns/
+wandb/
+tensorboard/
+
+# ---------------------------------------------------------------------------
+# Docker
+# ---------------------------------------------------------------------------
+*.pid
+docker-compose.override.yml
+
+# ---------------------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------------------
+desktop.ini
+$RECYCLE.BIN/
+*.txt
+!requirements.txt
