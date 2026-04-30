@@ -3,8 +3,7 @@
 ## Overview
 This project presents an end-to-end machine learning pipeline for **multi-label legal clause classification** using the CUAD dataset. It integrates traditional machine learning, transformer-based models, and deployment tools to build a scalable and production-ready legal AI system.
 
-End-to-end pipeline for **multi-label legal clause classification** on the  
-[CUAD v1] dataset.
+End-to-end pipeline for **multi-label legal clause classification** on the [CUAD v1] dataset.
 
 The repo implements **Approach A**:
 
